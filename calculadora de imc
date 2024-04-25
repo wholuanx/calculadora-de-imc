@@ -1,0 +1,20 @@
+print ("seja bem vindo (a)")
+
+peso = float (input("Digite o peso"))
+altura = float (input("Digite a altura"))
+imc = peso / (altura * altura)
+
+if imc < 18.5:
+    print("Seu estado é de Magreza grave")
+    
+elif imc < 50:
+    print ("você está saudável")
+    
+elif imc > 60:
+    print ("Seu estado é de Obesidade Grau I")
+    
+elif imc > 75:
+    print ("Seu estado é de Obesidade Grau II")
+    
+else:
+    print ("Digite as informações corretamente")
